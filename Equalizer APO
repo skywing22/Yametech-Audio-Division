@@ -50,29 +50,33 @@ crossfeed.txt
 Copy: L2=L R2=R L3=L R3=R L4=L R4=R L5=L R5=R L6=L R6=R L7=L R7=R L8=L R8=R
 Channel: R2 R4
 Delay: 66.67 ms
-Preamp: -17 dB
+Preamp: -13 dB
 Channel: L3 R3
 Delay: 83.33 ms
-Preamp: -10 dB
+Preamp: -17 dB
 Channel: L2 L4
 Delay: 104.16 ms
-Preamp: -18 dB
+Preamp: -15 dB
 Channel: L5 R5
 Delay: 133.33 ms
-Preamp: -18.5 dB
+Preamp: -27 dB
+Filter: ON HSC 12 dB Fc 5000 Hz Gain -4 dB
 Channel: L6 R6
 Delay: 266.67 ms
-Preamp: -19 dB
+Preamp: -28 dB
+Filter: ON HSC 12 dB Fc 4500 Hz Gain -6 dB
 Channel: L7 R7
-Delay: 500 ms
-Preamp: -19.5 dB
+Delay: 533.33 ms
+Preamp: -29 dB
+Filter: ON HSC 12 dB Fc 4000 Hz Gain -8 dB
 Channel: L8 R8
-Delay: 750 ms
-Preamp: -20 dB
+Delay: 766.67 ms
+Preamp: -30 dB
+Filter: ON HSC 12 dB Fc 3500 Hz Gain -10 dB
 Channel: L2 R2 L3 R3 L4 R4 L5 R5 L6 R6 L7 R7 L8 R8
+Preamp: -0.4 dB
 Filter: ON HPQ Fc 70 Hz Q 1
 Filter: ON LP Fc 5000 Hz
-Filter: ON NO Fc 1500 Hz
-Filter: ON HS Fc 70 Hz Gain -3 dB
-Copy: L5=0.1*R3+L5 R5=0.1*L3+R5 L6=0.0707*R5+L6 R6=0.0707*L5+R6 L7=0.05*R6+L7 R7=0.05*L6+R7 L8=0.0293*R7+L8 R8=0.0293*L7+R8
+Filter: ON HSC 12 dB Fc 500 Hz Gain 6 dB
+Copy: L3=0.5*L3+0.5*R3 R3=0.5*L3+0.5*R3 L6=L6 R6=R6 L7=0.025*R6+L7 R7=0.025*L6+R7 L8=0.01*R7+L8 R8=0.01*L7+R8
 Copy: L=L+0.7071*L2+0.7071*L3+0.7071*L4+0.7071*L5+0.7071*L6+0.5*L7+0.2929*L8 R=R+0.7071*R2+0.7071*R3+0.7071*R4+0.7071*R5+0.7071*R6+0.5*R7+0.2929*R8
