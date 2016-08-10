@@ -1,0 +1,29 @@
+# 
+# This code creates Linkwitz Transform and is based on spreadsheet you can download from minidisp site
+# Brought to you by jiiteepee@yahoo.se
+# http://jiiteepee.blogspot.fi/2016/03/phonoeq-software-project.html?view=sidebar
+#
+# set your parameters ------------
+Do: `f0 = 57.68`
+Do: `fp = 35`
+Do: `q0 = 0.66`
+Do: `qp = 0.577`
+# --------------------------------
+# Coefficient calculations--------
+Do: `B11 = (f0 + fp) / 2.0`
+Do: `B26 = (2.0 * pi * f0) * (2.0 * pi * f0)`
+Do: `B27 = (2.0 * pi * f0) / q0`
+Do: `B30 = (2.0 * pi * fp) * (2.0 * pi * fp)`
+Do: `B31 = (2.0 * pi * fp) / qp`
+Do: `B34 = (2.0 * pi * B11) / tan(pi * B11 / sampleRate)`
+Do: `B35 = B30 + (B34 * B31) + (B34 * B34)`
+Do: `a0 = 1`
+Do: `a1 = -(2.0 * (B30 - (B34 * B34)) / B35)`
+Do: `a2 = -((B30 - B34 * B31 + (B34 * B34)) / B35)`
+Do: `b0 = (B26 + B34 * B27 + (B34 * B34)) / B35`
+Do: `b1 = 2.0 * (B26 - (B34 * B34)) / B35`
+Do: `b2 = (B26 - B34 * B27 + (B34 * B34)) / B35`
+# --------------------------------
+# Enable filter
+Filter: ON IIR Order 2 Coefficients `b0` `b1` `b2` `a0` `-a1` `-a2`
+# --------------------------------
