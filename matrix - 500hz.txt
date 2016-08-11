@@ -1,11 +1,11 @@
 Copy: L1=L R1=R C=L+R
 Channel: L1
-Delay: 3 ms
+Delay: 0.5 ms
 Channel: R1
-Delay: 1 ms
+Delay: 1.5 ms
 Channel: C
-Delay: 2 ms
+Delay: 1 ms
+Preamp: -10 dB
 Channel: L1 R1 C
 Filter: ON BP Fc 500 Hz Q 10
-Filter: ON AP Fc 1000 Hz Q 10
-Copy: L=L+0.8165*L1+0.5774*R1+0.7071*C R=R+0.8165*L1+0.5774*R1+0.7071*C
+Copy: L=L+-0.8165*L1+-0.5774*R1+-0.7071*C R=R+-0.8165*L1+-0.5774*R1+-0.7071*C
