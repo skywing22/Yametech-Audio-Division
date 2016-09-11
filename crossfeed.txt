@@ -16,6 +16,7 @@ Delay: 766.67 ms
 Preamp: -47 dB
 Channel: L3 R3 L5 R5 L6 R6 L7 R7 L8 R8
 # Preamp: -4.5 dB
+Filter: ON LS Fc 600 Hz Gain -3 dB
 Filter: ON HPQ Fc 80 Hz Q 1
 Filter: ON LP Fc 5000 Hz
 Copy: L6=0.029*R5+L6 R6=0.029*L5+R6 L7=0.02*R6+L7 R7=0.02*L6+R7 L8=0.01*R7+L8 R8=0.01*L7+R8
