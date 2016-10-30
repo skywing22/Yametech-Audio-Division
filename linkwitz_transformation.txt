@@ -4,9 +4,9 @@
 # http://jiiteepee.blogspot.fi/2016/03/phonoeq-software-project.html?view=sidebar
 #
 # set your parameters ------------
-Do: `f0 = 45`
+Do: `f0 = 55`
 Do: `fp = 20`
-Do: `q0 = 0.66`
+Do: `q0 = 0.7071`
 Do: `qp = 0.577`
 # --------------------------------
 # Coefficient calculations--------

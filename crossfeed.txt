@@ -4,20 +4,23 @@ Delay: 83.33 ms
 Preamp: -18 dB
 Channel: L5 R5
 Delay: 133.33 ms
-Preamp: -28 dB
+Preamp: -30 dB
+# Filter: ON HP Fc 87.5 Hz
 Channel: L6 R6
 Delay: 266.67 ms
-Preamp: -34 dB
+Preamp: -42 dB
+# Filter: ON HP Fc 175 Hz
 Channel: L7 R7
 Delay: 533.33 ms
-Preamp: -44 dB
+Preamp: -54 dB
+# Filter: ON HP Fc 350 Hz
 Channel: L8 R8
 Delay: 766.67 ms
-Preamp: -47 dB
+Preamp: -66 dB
+# Filter: ON HP Fc 700 Hz
 Channel: L3 R3 L5 R5 L6 R6 L7 R7 L8 R8
-# Preamp: -4.5 dB
-Filter: ON LS Fc 600 Hz Gain -3 dB
-Filter: ON HPQ Fc 80 Hz Q 1
+Preamp: 5.2 dB
+Filter: ON HP Fc 43.75 Hz
 Filter: ON LP Fc 5000 Hz
-Copy: L6=0.029*R5+L6 R6=0.029*L5+R6 L7=0.02*R6+L7 R7=0.02*L6+R7 L8=0.01*R7+L8 R8=0.01*L7+R8
-Copy: L=L+0.7071*L3+0.58*L5+0.5*L6+0.2929*L7+0.14*L8 R=R+0.7071*R3+0.58*R5+0.5*R6+0.2929*R7+0.14*R8
+Copy: L5=-0.7071*R3+L5 R5=-0.7071*L3+R5 L6=-0.7071*R5+L6 R6=-0.7071*L5+R6 L7=-0.7071*R6+L7 R7=-0.7071*L6+R7 L8=-0.7071*R7+L8 R8=-0.7071*L7+R8
+Copy: L=L+0.7071*L3+0.7071*L5+0.7071*L6+0.7071*L7+0.7071*L8 R=R+0.7071*R3+0.7071*R5+0.7071*R6+0.7071*R7+0.7071*R8
