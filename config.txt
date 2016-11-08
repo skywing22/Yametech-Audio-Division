@@ -1,15 +1,16 @@
 # Copy: L=-1.0*L+L
 # Copy: R=-1.0*R+R
-# Filter: ON LP Fc 150 Hz
-# Filter: ON HPQ Fc 90 Hz Q 0.7071
-# Stage: 
+# Filter: ON LP Fc 8000 Hz
+# Filter: ON HPQ Fc 43 Hz Q 0.7071
 Preamp: -7.6 dB
-Include: OBIEM.txt
+# Stage: 
+# Include: OBIEM.txt
+# Include: Philips.txt
 # Stage: 
 Include: matrix main.txt
 Include: linkwitz_transformation.txt
 Include: crossfeed.txt
-Stage: 
+# Stage: 
 Filter: ON PK Fc 31 Hz Gain 4 dB Q 0.7071
 Filter: ON PK Fc 60 Hz Gain -3 dB Q 1.4142
 Filter: ON PK Fc 62 Hz Gain 3 dB Q 8.1071
