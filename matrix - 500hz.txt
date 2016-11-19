@@ -5,7 +5,7 @@ Channel: R1
 Delay: 1.5 ms
 Channel: C
 Delay: 1 ms
-Preamp: -15 dB
+Preamp: -26 dB
 Channel: L1 R1 C
-Filter: ON BP Fc 500 Hz Q 10
+Filter: ON BP Fc 500 Hz Q 2.871
 Copy: L=L+-0.8165*L1+-0.5774*R1+-0.7071*C R=R+-0.8165*L1+-0.5774*R1+-0.7071*C
