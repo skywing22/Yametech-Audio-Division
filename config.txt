@@ -11,9 +11,8 @@ Include: matrix main.txt
 Include: linkwitz_transformation.txt
 Include: crossfeed.txt
 # Stage: 
-Include: matrix - 8000hz.txt
 Filter: ON PK Fc 31 Hz Gain 4 dB Q 0.7071
-Filter: ON PK Fc 60 Hz Gain -3 dB Q 1.4142
+Filter: ON PK Fc 60 Hz Gain -9.1 dB Q 1.4142
 Filter: ON PK Fc 62 Hz Gain 3 dB Q 0.7071
 Filter: ON PK Fc 125 Hz Gain -1 dB Q 0.7071
 Filter: ON PK Fc 125 Hz Gain 1 dB Q 4
@@ -51,3 +50,4 @@ Filter: ON PK Fc 40 Hz Gain 2 dB Q 1.4142
 Filter: ON PK Fc 50 Hz Gain 3 dB Q 8
 Filter: ON PK Fc 80 Hz Gain 12 dB Q 4
 Filter: ON PK Fc 80 Hz Gain -1 dB Q 0.7071
+# Filter: ON PK Fc 4000 Hz Gain -20 dB Q 4

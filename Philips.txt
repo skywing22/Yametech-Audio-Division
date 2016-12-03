@@ -1,4 +1,4 @@
-Include: matrix - 8000hz.txt
+# Include: matrix - 8000hz.txt
 Preamp: 2 dB
 # Stage: 
 Filter: ON PK Fc 31.5 Hz Gain -4 dB Q 0.7071
