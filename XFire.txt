@@ -1,0 +1,11 @@
+Copy: L=-1.0*L R=R
+Channel: ALL
+Preamp: 3 dB
+Filter: ON PK Fc 300 Hz Gain -9 dB Q 0.7071
+Filter: ON PK Fc 400 Hz Gain 3 dB Q 1.4142
+Filter: ON PK Fc 1500 Hz Gain -3 dB Q 4
+Filter: ON PK Fc 2500 Hz Gain -3 dB Q 0.7071
+Filter: ON PK Fc 3500 Hz Gain -9 dB Q 2.8284
+Filter: ON PK Fc 5000 Hz Gain -6 dB Q 4
+Filter: ON HS Fc 6000 Hz Gain -3 dB
+Filter: ON PK Fc 10000 Hz Gain 3 dB Q 4
