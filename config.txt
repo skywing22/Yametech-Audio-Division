@@ -5,13 +5,12 @@
 Preamp: -7.6 dB
 # Stage: 
 # Include: OBIEM.txt
-# Include: Philips.txt
-# Include: HD650.txt
+Include: Philips.txt
 # Stage: 
 Include: matrix main.txt
 Include: linkwitz_transformation.txt
 Include: crossfeed.txt
-# Stage: 
+Stage: 
 Filter: ON PK Fc 31 Hz Gain 4 dB Q 0.7071
 Filter: ON PK Fc 60 Hz Gain -9 dB Q 1.4142
 Filter: ON PK Fc 62 Hz Gain 3 dB Q 0.7071

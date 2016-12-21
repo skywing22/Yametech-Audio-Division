@@ -1,11 +1,21 @@
-Copy: L=-1.0*L R=R
+Copy: L=L R=R IL=-1.0*L IR=-1.0*R
 Channel: ALL
-Preamp: 3 dB
-Filter: ON PK Fc 300 Hz Gain -9 dB Q 0.7071
-Filter: ON PK Fc 400 Hz Gain 3 dB Q 1.4142
-Filter: ON PK Fc 1500 Hz Gain -3 dB Q 4
+# Preamp: -0.6 dB
+# Filter: ON PK Fc 300 Hz Gain -9 dB Q 0.7071
+# Filter: ON PK Fc 400 Hz Gain 3 dB Q 1.4142
+# Filter: ON PK Fc 1500 Hz Gain -3 dB Q 4
+# Filter: ON PK Fc 2500 Hz Gain -3 dB Q 0.7071
+# Filter: ON PK Fc 3500 Hz Gain -9 dB Q 2.8284
+# Filter: ON PK Fc 5000 Hz Gain -6 dB Q 4
+# Filter: ON HS Fc 6000 Hz Gain -3 dB
+# Filter: ON PK Fc 10000 Hz Gain 3 dB Q 4
+Filter: ON PK Fc 25000 Hz Gain -3 dB Q 0.7071
 Filter: ON PK Fc 2500 Hz Gain -3 dB Q 0.7071
-Filter: ON PK Fc 3500 Hz Gain -9 dB Q 2.8284
-Filter: ON PK Fc 5000 Hz Gain -6 dB Q 4
-Filter: ON HS Fc 6000 Hz Gain -3 dB
-Filter: ON PK Fc 10000 Hz Gain 3 dB Q 4
+Filter: ON PK Fc 250 Hz Gain -3 dB Q 0.7071
+Filter: ON PK Fc 25 Hz Gain -3 dB Q 0.7071
+Channel: IL IR
+Preamp: 2 dB
+Delay: 15 ms
+Filter: ON LS Fc 200 Hz Gain 1 dB
+Copy: L=L+0.1*IL R=0.1*R+IR
+# Copy: L=0*L R=0*R
