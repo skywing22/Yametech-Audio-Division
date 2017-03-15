@@ -19,6 +19,7 @@ Delay: 766.67 ms
 Preamp: -63.22 dB
 # Filter: ON HP Fc 700 Hz
 Channel: L3 R3 L5 R5 L6 R6 L7 R7 L8 R8
+# Preamp: -3 dB
 # Preamp: 6 dB
 Filter: ON HP Fc 43.75 Hz
 Filter: ON LP Fc 10000 Hz

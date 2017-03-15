@@ -5,3 +5,5 @@ Include: matrix - 1000hz.txt
 Include: matrix - 2000hz.txt
 Include: matrix - 4000hz.txt
 Include: matrix - 8000hz.txt
+Include: matrix - 16000hz.txt
+Preamp: 1 dB
