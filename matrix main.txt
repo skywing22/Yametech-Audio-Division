@@ -1,3 +1,6 @@
+Filter: ON PK Fc 1000 Hz Gain 1.5 dB BW Oct 3.9997
+Filter: ON PK Fc 2000 Hz Gain -1.5 dB Q 7
+# Stage: 
 Include: matrix - 125hz.txt
 Include: matrix - 250hz.txt
 Include: matrix - 500hz.txt
@@ -6,4 +9,3 @@ Include: matrix - 2000hz.txt
 Include: matrix - 4000hz.txt
 Include: matrix - 8000hz.txt
 Include: matrix - 16000hz.txt
-Preamp: 1 dB

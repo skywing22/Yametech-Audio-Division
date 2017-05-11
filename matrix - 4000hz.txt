@@ -1,11 +1,11 @@
-Copy: L1=L R1=R C=0.5*L+0.5*R
+Copy: L1=L C=0.5*L+0.5*R R1=R
 Channel: L1
 Delay: 0.06 ms
 Channel: R1
 Delay: 0.19 ms
 Channel: C
 Delay: 0.13 ms
-Preamp: -9 dB
+Preamp: -10 dB
 Channel: L1 R1 C
 Filter: ON BP Fc 4000 Hz Q 2.871
 Copy: L=L+-0.8165*L1+-0.5774*R1+-0.7071*C R=R+-0.8165*L1+-0.5774*R1+-0.7071*C

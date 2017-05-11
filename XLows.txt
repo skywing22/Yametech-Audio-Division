@@ -1,8 +1,8 @@
+Filter: ON PK Fc 70 Hz Gain 4 dB Q 1.4142
 # Stage: 
-Filter: ON PK Fc 61.74 Hz Gain 6 dB Q 8
-Filter: ON PK Fc 123.47 Hz Gain 4 dB Q 8
-Filter: ON PK Fc 49 Hz Gain 9 dB Q 8
-Filter: ON PK Fc 82.41 Hz Gain 9 dB Q 8
-Filter: ON PK Fc 41.2 Hz Gain 9 dB Q 8
-Filter: ON PK Fc 98 Hz Gain 9 dB Q 8
-Filter: ON PK Fc 63 Hz Gain -4 dB Q 0.7071
+Filter: ON PK Fc 61.74 Hz Gain 4 dB BW Oct 0.0714
+Filter: ON PK Fc 123.47 Hz Gain 3 dB BW Oct 0.0714
+Filter: ON PK Fc 49 Hz Gain 6 dB BW Oct 0.0714
+Filter: ON PK Fc 98 Hz Gain 5 dB BW Oct 0.0714
+Filter: ON PK Fc 41.2 Hz Gain 7 dB BW Oct 0.0714
+Filter: ON PK Fc 82.41 Hz Gain 3 dB BW Oct 0.0714
