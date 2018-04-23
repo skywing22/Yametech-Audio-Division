@@ -1,0 +1,2 @@
+Device:  Microphone WO Mic Device {c2217439-656c-4e6d-b4df-1336cb489804}
+Preamp: 10 dB

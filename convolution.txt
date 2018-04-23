@@ -1,8 +1,10 @@
 Copy: CL=L CR=R
 Channel: CL CR
 Convolution: stairwell_ortf.wav
-Preamp: -15.8 dB
-Filter: ON PK Fc 50 Hz Gain 3 dB Q 0.7071
-Filter: ON PK Fc 600 Hz Gain -3 dB Q 1.4142
-Filter: ON PK Fc 4000 Hz Gain -3 dB Q 0.7071
+Preamp: -15.3 dB
+# Filter: ON LSC 10 dB Fc 170 Hz Gain -3 dB
+Filter: ON PK Fc 250 Hz Gain -1 dB Q 1.4142
+Filter: ON PK Fc 800 Hz Gain -1 dB Q 0.7071
+Filter: ON PK Fc 2600 Hz Gain -2 dB Q 2.8284
+Filter: ON PK Fc 5000 Hz Gain -1 dB Q 0.7071
 Copy: L=L+0.7071*CL R=R+0.7071*CR

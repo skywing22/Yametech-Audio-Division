@@ -1,0 +1,13 @@
+Filter: ON LP Fc 50 Hz
+Filter: ON HSC 7 dB Fc 250 Hz Gain -60 dB
+# Preamp: -3 dB
+# Delay: 2 ms
+Filter: ON PK Fc 40 Hz Gain -4 dB Q 4
+Filter: ON PK Fc 45 Hz Gain -8 dB Q 2.8284
+Filter: ON PK Fc 55 Hz Gain -2 dB Q 7
+Filter: ON PK Fc 65 Hz Gain -7 dB Q 4
+Filter: ON PK Fc 70 Hz Gain -3 dB Q 7
+Filter: ON PK Fc 115 Hz Gain -10 dB Q 2.8284
+Filter: ON PK Fc 85 Hz Gain -10 dB Q 1.4142
+# Filter: ON LS Fc 100 Hz Gain 10 dB
+Copy: L=L+R

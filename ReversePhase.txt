@@ -1,0 +1,8 @@
+Copy: LL=L LR=R HL=L HR=R
+Channel: LL LR
+Filter: ON LPQ Fc 170 Hz Q 0.5
+# Preamp: 3 dB
+Channel: HL HR
+Filter: ON HPQ Fc 170 Hz Q 0.5
+# Preamp: -90 dB
+Copy: L=-1.0*LL+HL R=-1.0*LR+HR

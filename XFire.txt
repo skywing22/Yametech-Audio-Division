@@ -10,6 +10,6 @@ Filter: ON PK Fc 250 Hz Gain -3 dB Q 0.7071
 Filter: ON PK Fc 25 Hz Gain -3 dB Q 0.7071
 Channel: IL IR
 Preamp: 1.5 dB
-Delay: 15 ms
-Copy: L=L+0.1*IL R=0.1*R+IR
+Delay: 16.67 ms
+Copy: L=L+0.1*IL R=0.1*R+1.2*IR
 # Copy: L=0*L R=0*R
