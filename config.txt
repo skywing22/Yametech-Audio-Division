@@ -1,26 +1,26 @@
 # Stage: 
-Device:     Speakers Ti USB Audio  {7db94569-88f3-448f-8f87-9e0d4a7cd917}
-# Copy: L=L+-1.0*L R=0.5*L+0.5*R
-# Copy: 
-# Copy: R=-1.0*R+R
+# Copy: L=-1.0*L+L R=0.5*L+0.5*R
+# Copy: L=L R=-1.0*L+0*R
+Device:  Speakers Ti USB Audio  {020353b4-6b12-4409-9391-782298783ac4}
 # Filter: ON LP Fc 20000 Hz
 # Filter: ON HPQ Fc 20 Hz Q 0.7071
 # Stage: 
 # Include: SurroundSetup.txt
-Filter: ON LS Fc 20000 Hz Gain -10 dB
-# Filter: ON LS Fc 30000 Hz Gain -10 dB
+# Filter: ON LS Fc 20000 Hz Gain -10 dB
+Filter: ON LS Fc 30000 Hz Gain -10 dB
 Filter: ON LS Fc 20 Hz Gain 10 dB
 # Preamp: -10 dB
 # Preamp: 3 dB
 # Stage: 
 # Include: AlphaTest.txt
-# Include: HD650.txt
+# Include: BMB.txt
 # Include: OBIEM.txt
 # Include: Philips.txt
 # Include: Philips V2.txt
-Include: Speaker.txt
+# Include: Speaker.txt
 # Include: SRH440.txt
-# Include: T1.txt
+Include: T1.txt
+# Include: BMB.txt
 # Stage: 
 Include: XLows.txt
 Include: matrix main.txt
@@ -29,6 +29,4 @@ Include: ReversePhase.txt
 # Include: crossfeed.txt
 # Include: convolution.txt
 # Include: Prototype.txt
-# VSTPlugin: Library AmbientReverb.dll "Input Level" 1 "Decay Freeze" 0 "Output Level" 1 "Dry Level" 1 "ER Level" 0.910139 "Predelay Right" 1.49012e-8 "Late Level" 0.965 "Predelay Left" 1.49012e-8 "Decay Time" 0.270971 Size 0.65 Wide 0.65 "Bass Ratio" 0.4 Crossover 0.0615385 "High Damping" 1 "EQ Low Band Level" 0.533333 "EQ Low Band Freq" 0.292929 "EQ Hi Band Level" 0.266667 "EQ Hi Band Freq" 0.695122
-Device: Speakers / Headphones Realtek High Definition Audio {e1e119af-acc8-4a9c-a6ce-66c877d145d3}
-Include: Test.txt
+# VSTPlugin: Library AmbientReverb.dll "Input Level" 1 "Decay Freeze" 0 "Output Level" 1 "Dry Level" 1 "ER Level" 0.926466 "Predelay Right" 0.03 "Late Level" 0.958885 "Predelay Left" 0.03 "Decay Time" 0.401373 Size 0.3 Wide 0.625 "Bass Ratio" 0.266667 Crossover 0.0128205 "High Damping" 0.464796 "EQ Low Band Level" 0.533333 "EQ Low Band Freq" 0.292929 "EQ Hi Band Level" 0.266667 "EQ Hi Band Freq" 0.695122
