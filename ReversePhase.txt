@@ -1,7 +1,7 @@
 Copy: LL=L LR=R HL=L HR=R
 Channel: LL LR
 Filter: ON LPQ Fc 75 Hz Q 0.5
-Delay: 4 ms
+Delay: 3.64 ms
 Preamp: -7.5 dB
 Channel: HL HR
 # Filter: ON HPQ Fc 75 Hz Q 0.5

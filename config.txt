@@ -1,14 +1,17 @@
 # Stage: 
 # Copy: L=-1.0*L+L R=0.5*L+0.5*R
-# Copy: L=L R=-1.0*L+0*R
-Device:  Speakers Ti USB Audio  {020353b4-6b12-4409-9391-782298783ac4}
-# Filter: ON LP Fc 20000 Hz
-# Filter: ON HPQ Fc 20 Hz Q 0.7071
+# Copy: L=1.1*L R=R
+# Preamp: 20 dB
+Device: Speakers Ti USB Audio  {fd8a9dc1-95f2-46c9-a0ee-296ba1e77480}
+# Filter: ON PK Fc 6000 Hz Gain 20 dB Q 4
+# Filter: ON LP Fc 16000 Hz
+# Filter: ON HPQ Fc 75 Hz Q 0.7071
 # Stage: 
 # Include: SurroundSetup.txt
 # Filter: ON LS Fc 20000 Hz Gain -10 dB
 Filter: ON LS Fc 30000 Hz Gain -10 dB
 Filter: ON LS Fc 20 Hz Gain 10 dB
+# Filter: ON HS Fc 60 Hz Gain 3 dB
 # Preamp: -10 dB
 # Preamp: 3 dB
 # Stage: 
@@ -17,9 +20,9 @@ Filter: ON LS Fc 20 Hz Gain 10 dB
 # Include: OBIEM.txt
 # Include: Philips.txt
 # Include: Philips V2.txt
-# Include: Speaker.txt
+Include: Speaker.txt
 # Include: SRH440.txt
-Include: T1.txt
+# Include: T1.txt
 # Include: BMB.txt
 # Stage: 
 Include: XLows.txt
