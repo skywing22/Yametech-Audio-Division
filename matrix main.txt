@@ -13,4 +13,4 @@ Include: matrix - 16000hz.txt
 Filter: ON PK Fc 24000 Hz Gain -0.7 dB Q 0.3
 Filter: ON PK Fc 886 Hz Gain 0.4 dB Q 0.1667
 Channel: L
-Filter: ON PK Fc 686 Hz Gain 1 dB Q 0.2667
+Filter: ON PK Fc 686 Hz Gain 0.6 dB Q 0.1667

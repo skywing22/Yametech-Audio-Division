@@ -2,12 +2,13 @@
 # Copy: L=-1.0*L+L R=0.5*L+0.5*R
 # Copy: L=1.1*L R=R
 # Preamp: 20 dB
-Device: Speakers Ti USB Audio  {fd8a9dc1-95f2-46c9-a0ee-296ba1e77480}
+Device: Speakers Ti USB Audio  {047993af-0073-408c-be13-92606ed87ee9}
 # Filter: ON PK Fc 6000 Hz Gain 20 dB Q 4
 # Filter: ON LP Fc 16000 Hz
 # Filter: ON HPQ Fc 75 Hz Q 0.7071
 # Stage: 
 # Include: SurroundSetup.txt
+# Filter: ON LP Fc 20000 Hz
 # Filter: ON LS Fc 20000 Hz Gain -10 dB
 Filter: ON LS Fc 30000 Hz Gain -10 dB
 Filter: ON LS Fc 20 Hz Gain 10 dB
