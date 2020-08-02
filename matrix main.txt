@@ -10,7 +10,15 @@ Include: matrix - 2000hz.txt
 Include: matrix - 4000hz.txt
 Include: matrix - 8000hz.txt
 Include: matrix - 16000hz.txt
-Filter: ON PK Fc 24000 Hz Gain -0.7 dB Q 0.3
-Filter: ON PK Fc 886 Hz Gain 0.4 dB Q 0.1667
+Preamp: -8.5 dB
+# Stage: 
+Channel: L R
+Filter: ON PK Fc 24000 Hz Gain -0.6 dB Q 0.3
+Filter: ON PK Fc 886 Hz Gain 1 dB Q 0.1667
+# Filter: ON PK Fc 443 Hz Gain 0 dB Q 0.1667
 Channel: L
-Filter: ON PK Fc 686 Hz Gain 0.6 dB Q 0.1667
+Filter: ON PK Fc 686 Hz Gain 0.5 dB Q 0.1667
+Filter: ON PK Fc 64 Hz Gain 0.8 dB Q 0.7071
+Filter: ON PK Fc 83 Hz Gain 0.8 dB Q 1.1
+Channel: R
+Filter: ON PK Fc 67 Hz Gain 1 dB Q 0.7142
