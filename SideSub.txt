@@ -1,0 +1,29 @@
+Device: Speakers Realtek(R) Audio {41161be9-235c-4ed3-8580-2271b6d9baf7}
+# Stage: 
+Filter: ON LP Fc 175 Hz
+Filter: ON HP Fc 15 Hz
+Filter: ON HS Fc 250 Hz Gain -9 dB
+# Filter: ON LSC Fc 25 Hz Gain 0 dB Q 1.4142
+Filter: ON AP Fc 20 Hz Q 0.3333
+Filter: ON LS Fc 90 Hz Gain 6 dB
+# Stage: 
+Preamp: -3 dB
+Filter: ON PK Fc 15 Hz Gain 2 dB Q 1.4142
+Filter: ON PK Fc 20 Hz Gain -2 dB Q 2.8284
+Filter: ON PK Fc 31.25 Hz Gain 2 dB Q 1.4142
+Filter: ON PK Fc 25 Hz Gain 6 dB Q 0.3333
+Filter: ON PK Fc 39 Hz Gain -4 dB Q 20
+Filter: ON PK Fc 42 Hz Gain -4 dB Q 2.8284
+Filter: ON PK Fc 45 Hz Gain -3 dB Q 7
+Filter: ON PK Fc 48 Hz Gain 2 dB Q 7
+Filter: ON PK Fc 55 Hz Gain -4 dB Q 7
+Filter: ON PK Fc 55 Hz Gain -3 dB Q 1.4142
+Filter: ON PK Fc 62 Hz Gain -2 dB Q 12
+Filter: ON PK Fc 70 Hz Gain -5 dB Q 10
+Filter: ON PK Fc 76 Hz Gain 11 dB Q 4.7
+Filter: ON PK Fc 80 Hz Gain -5 dB Q 1.4142
+Filter: ON PK Fc 100 Hz Gain -11 dB Q 0.7071
+Filter: ON PK Fc 188 Hz Gain -9 dB Q 7
+Filter: ON PK Fc 250 Hz Gain -6 dB Q 0.2667
+Filter: ON PK Fc 250 Hz Gain -9 dB Q 0.7071
+Filter: ON PK Fc 400 Hz Gain -15 dB Q 0.7071
